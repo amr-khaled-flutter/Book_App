@@ -1,16 +1,33 @@
-# bookly_app
+# Bookly App 📚
 
-A new Flutter project.
+A modern Flutter application that allows users to discover, explore, and search for books using the Google Books API.
+
+## Features
+- Discover best-selling and featured books.
+- Search for books by title or keyword.
+- Explore detailed book information.
+- Get recommendations for similar books.
+- Browse book ratings and information.
+- Smooth navigation between screens.
+
+## Technologies & Packages
+- Flutter & Dart
+- BLoC / Cubit
+- MVVM Architecture
+- Dio
+- Google Books API
+- GetIt (Dependency Injection)
+- GoRouter
+- Equatable
+- Cached Network Image
+
+## API
+Powered by [Google Books API](https://developers.google.com/books).
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Clone the repository.
+2. Install dependencies:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+   ```bash
+   flutter pub get
